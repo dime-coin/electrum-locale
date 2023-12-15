@@ -38,8 +38,8 @@ msgid "&Addresses"
 msgstr "&Адрасы"
 
 #: electrum/gui/qt/main_window.py:748
-msgid "&Bitcoin Paper"
-msgstr "&Bitcoin Paper"
+msgid "&Dimecoin Paper"
+msgstr "&Dimecoin Paper"
 
 #: electrum/gui/qt/main_window.py:743
 msgid "&Check for updates"
@@ -660,19 +660,19 @@ msgid "BIP70 invoice saved as {}"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:655
-msgid "BTC Fiat price"
+msgid "DIME Fiat price"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:651
-msgid "BTC balance"
+msgid "DIME balance"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:672
-msgid "BTC incoming"
+msgid "DIME incoming"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:676
-msgid "BTC outgoing"
+msgid "DIME outgoing"
 msgstr ""
 
 #: electrum/gui/qt/installwizard.py:103 electrum/gui/qt/installwizard.py:163
@@ -749,16 +749,16 @@ msgid "BitBox02 Status"
 msgstr ""
 
 #: electrum/gui/qt/send_tab.py:620
-msgid "Bitcoin Address is None"
+msgid "Dimecoin Address is None"
 msgstr ""
 
 #: electrum/gui/qt/receive_tab.py:215 electrum/gui/qt/receive_tab.py:291
 #: electrum/gui/qt/request_list.py:203
-msgid "Bitcoin URI"
+msgid "Dimecoin URI"
 msgstr ""
 
 #: electrum/gui/qt/confirm_tx_dialog.py:684
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgid "Dimecoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
 msgstr ""
 
 #: electrum/gui/qt/locktimeedit.py:38
@@ -1846,7 +1846,7 @@ msgid "Device communication error. Please unplug and replug your Digital Bitbox.
 msgstr ""
 
 #: electrum/plugins/ledger/ledger.py:872
-msgid "Device not in Bitcoin mode"
+msgid "Device not in Dimecoin mode"
 msgstr ""
 
 #: electrum/plugins/digitalbitbox/__init__.py:5
@@ -2083,7 +2083,7 @@ msgid "Electrum-Dime will now exit."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:766
-msgid "Electrum-Dime's focus is speed, with low resource usage and simplifying Bitcoin."
+msgid "Electrum-Dime's focus is speed, with low resource usage and simplifying Dimecoin."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:1838
@@ -2225,7 +2225,7 @@ msgid "Enter a label to name your device:"
 msgstr ""
 
 #: electrum/base_wizard.py:230
-msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgid "Enter a list of Dimecoin addresses (this will create a watching-only wallet), or a list of private keys."
 msgstr ""
 
 #: electrum/gui/qt/send_tab.py:789
@@ -2655,7 +2655,7 @@ msgid "Firmware Version"
 msgstr ""
 
 #: electrum/plugins/ledger/ledger.py:57
-msgid "Firmware version (or \"Bitcoin\" app) too old for Segwit support. Please update at"
+msgid "Firmware version (or \"Dimecoin\" app) too old for Segwit support. Please update at"
 msgstr ""
 
 #: electrum/plugins/trezor/qt.py:424
@@ -3053,11 +3053,11 @@ msgid "Import"
 msgstr ""
 
 #: electrum/base_wizard.py:229
-msgid "Import Bitcoin Addresses"
+msgid "Import Dimecoin Addresses"
 msgstr ""
 
 #: electrum/base_wizard.py:150
-msgid "Import Bitcoin addresses or private keys"
+msgid "Import Dimecoin addresses or private keys"
 msgstr ""
 
 #: electrum/gui/kivy/main_window.py:1465
@@ -3219,15 +3219,15 @@ msgstr ""
 
 #: electrum/plugins/hw_wallet/plugin.py:129
 #: electrum/gui/kivy/uix/screens.py:361
-msgid "Invalid Bitcoin Address"
+msgid "Invalid Dimecoin Address"
 msgstr ""
 
 #: electrum/gui/stdio.py:186 electrum/gui/text.py:622
-msgid "Invalid Bitcoin address"
+msgid "Invalid Dimecoin address"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:2000 electrum/gui/qt/main_window.py:2028
-msgid "Invalid Bitcoin address."
+msgid "Invalid Dimecoin address."
 msgstr ""
 
 #: electrum/gui/stdio.py:196
@@ -4656,7 +4656,7 @@ msgid "Please save these {0} words on paper (order is important). "
 msgstr ""
 
 #: electrum/gui/kivy/uix/screens.py:334
-msgid "Please scan a Bitcoin address or a payment request"
+msgid "Please scan a Dimecoin address or a payment request"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:601
@@ -5522,7 +5522,7 @@ msgid "Share #{} is not part of the current set."
 msgstr ""
 
 #: electrum/gui/kivy/uix/dialogs/request_dialog.py:232
-msgid "Share Bitcoin Request"
+msgid "Share Dimecoin Request"
 msgstr ""
 
 #: electrum/gui/kivy/uix/dialogs/invoice_dialog.py:126
@@ -5722,7 +5722,7 @@ msgid "Standard wallet"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:769
-msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Dimecoin system."
 msgstr ""
 
 #: electrum/gui/qt/channel_details.py:187
@@ -5861,7 +5861,7 @@ msgid "Testnet coins are worthless."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:564
-msgid "Testnet is separate from the main Bitcoin network. It is used for testing."
+msgid "Testnet is separate from the main Dimecoin network. It is used for testing."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:1502
@@ -6517,7 +6517,7 @@ msgstr ""
 #: electrum/network.py:1113
 msgid "Transaction could not be broadcast due to dust outputs.\n"
 "Some of the outputs are too small in value, probably lower than 1000 satoshis.\n"
-"Check the units, make sure you haven't confused e.g. mBTC and BTC."
+"Check the units, make sure you haven't confused e.g. mDIME and DIME."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:2779 electrum/gui/qml/qewallet.py:588
@@ -7270,7 +7270,7 @@ msgid "You may choose to broadcast it earlier, although that would not be trustl
 msgstr ""
 
 #: electrum/gui/qt/send_tab.py:77
-msgid "You may enter a Bitcoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Bitcoin address)"
+msgid "You may enter a Dimecoin address, a label from your list of contacts (a list of completions will be proposed), or an alias (email-like address that forwards to a Dimecoin address)"
 msgstr ""
 
 #: electrum/base_wizard.py:497
@@ -8244,7 +8244,7 @@ msgid "On-chain"
 msgstr ""
 
 #: ../gui/qml/components/controls/BtcField.qml:12
-msgctxt "BtcField|"
+msgctxt "DimeField|"
 msgid "Amount"
 msgstr ""
 
@@ -10423,7 +10423,7 @@ msgstr ""
 
 #: ../gui/qml/components/wizard/WCImport.qml:32
 msgctxt "WCImport|"
-msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgid "Enter a list of Dimecoin addresses (this will create a watching-only wallet), or a list of private keys."
 msgstr ""
 
 #: ../gui/qml/components/wizard/WCImport.qml:68
@@ -10561,7 +10561,7 @@ msgstr ""
 
 #: ../gui/qml/components/wizard/WCWalletType.qml:42
 msgctxt "WCWalletType|"
-msgid "Import Bitcoin addresses or private keys"
+msgid "Import Dimecoin addresses or private keys"
 msgstr ""
 
 #: ../gui/qml/components/WalletDetails.qml:20
