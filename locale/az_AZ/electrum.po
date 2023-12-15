@@ -1886,7 +1886,7 @@ msgid "Display your seed?"
 msgstr ""
 
 #: electrum/gui/kivy/uix/ui_screens/about.kv:41
-msgid "Distributed by Electrum-Dime Technologies GmbH"
+msgid "Distributed by Dimecoin Developers"
 msgstr ""
 
 #: electrum/base_crash_reporter.py:65
@@ -8006,7 +8006,7 @@ msgstr ""
 
 #: ../gui/qml/components/About.qml:85
 msgctxt "About|"
-msgid "Distributed by Electrum-Dime Technologies GmbH"
+msgid "Distributed by Dimecoin Developers"
 msgstr ""
 
 #: ../gui/qml/components/controls/AddressDelegate.qml:61
