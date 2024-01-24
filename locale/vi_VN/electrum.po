@@ -38,7 +38,7 @@ msgid "&Addresses"
 msgstr "&Địa chỉ"
 
 #: electrum/gui/qt/main_window.py:780
-msgid "&Bitcoin Paper"
+msgid "&Dimecoin Paper"
 msgstr "Ví btc giấy"
 
 #: electrum/gui/qt/main_window.py:775
@@ -212,7 +212,7 @@ msgid "({}% of amount)"
 msgstr ""
 
 #: electrum/gui/qt/send_tab.py:69
-msgid "- a Bitcoin address or BIP21 URI"
+msgid "- a Dimecoin address or BIP21 URI"
 msgstr ""
 
 #: electrum/gui/qt/send_tab.py:70
@@ -684,19 +684,19 @@ msgid "BIP70 invoice saved as {}"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:628
-msgid "BTC Fiat price"
+msgid "DIME Fiat price"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:624
-msgid "BTC balance"
+msgid "DIME balance"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:645
-msgid "BTC incoming"
+msgid "DIME incoming"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:649
-msgid "BTC outgoing"
+msgid "DIME outgoing"
 msgstr ""
 
 #: electrum/gui/qt/wizard/wizard.py:47 electrum/gui/qt/wizard/wizard.py:175
@@ -763,17 +763,17 @@ msgid "BitBox02 Status"
 msgstr ""
 
 #: electrum/gui/qt/send_tab.py:613
-msgid "Bitcoin Address is None"
-msgstr "Chưa có địa chỉ Bitcoin"
+msgid "Dimecoin Address is None"
+msgstr "Chưa có địa chỉ Dimecoin"
 
 #: electrum/gui/qt/request_list.py:203 electrum/gui/qt/receive_tab.py:209
 #: electrum/gui/qt/receive_tab.py:285
-msgid "Bitcoin URI"
+msgid "Dimecoin URI"
 msgstr ""
 
 #: electrum/gui/qt/confirm_tx_dialog.py:689
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Les giao dịch Bitcoin ne sont généralement pas gratuites. L'expéditeur paye des frais de ธุรกรรม aux mineurs."
+msgid "Dimecoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Les giao dịch Dimecoin ne sont généralement pas gratuites. L'expéditeur paye des frais de ธุรกรรม aux mineurs."
 
 #: electrum/gui/qt/locktimeedit.py:38
 msgid "Block height"
@@ -1780,7 +1780,7 @@ msgid "Device erased"
 msgstr ""
 
 #: electrum/plugins/ledger/ledger.py:882
-msgid "Device not in Bitcoin mode"
+msgid "Device not in Dimecoin mode"
 msgstr ""
 
 #: electrum/plugins/digitalbitbox/__init__.py:5
@@ -1953,7 +1953,7 @@ msgid "Electrum"
 msgstr ""
 
 #: electrum/gui/qt/wizard/server_connect.py:39
-msgid "Electrum Bitcoin Wallet"
+msgid "Electrum Dimecoin Wallet"
 msgstr ""
 
 #: electrum/gui/qt/plugins_dialog.py:22
@@ -2015,7 +2015,7 @@ msgid "Electrum will now exit."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:799
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
+msgid "Electrum's focus is speed, with low resource usage and simplifying Dimecoin."
 msgstr ""
 
 #: electrum/gui/qt/wallet_info_dialog.py:94
@@ -2151,7 +2151,7 @@ msgid "Enter a label to name your device:"
 msgstr ""
 
 #: electrum/gui/qt/wizard/wallet.py:950
-msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgid "Enter a list of Dimecoin addresses (this will create a watching-only wallet), or a list of private keys."
 msgstr ""
 
 #: electrum/gui/qt/send_tab.py:798
@@ -2548,7 +2548,7 @@ msgid "Firmware Version"
 msgstr ""
 
 #: electrum/plugins/ledger/ledger.py:58
-msgid "Firmware version (or \"Bitcoin\" app) too old for Segwit support. Please update at"
+msgid "Firmware version (or \"Dimecoin\" app) too old for Segwit support. Please update at"
 msgstr ""
 
 #: electrum/plugins/trezor/qt.py:433
@@ -2932,11 +2932,11 @@ msgid "Import"
 msgstr ""
 
 #: electrum/gui/qt/wizard/wallet.py:948
-msgid "Import Bitcoin Addresses or Private Keys"
+msgid "Import Dimecoin Addresses or Private Keys"
 msgstr ""
 
 #: electrum/gui/qt/wizard/wallet.py:416
-msgid "Import Bitcoin addresses or private keys"
+msgid "Import Dimecoin addresses or private keys"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:721 electrum/gui/qt/main_window.py:2466
@@ -3096,15 +3096,15 @@ msgid "Invalid Amount"
 msgstr "Số tiền không hợp lệ"
 
 #: electrum/plugins/hw_wallet/plugin.py:110
-msgid "Invalid Bitcoin Address"
-msgstr "Địa chỉ Bitcoin không hợp lệ."
+msgid "Invalid Dimecoin Address"
+msgstr "Địa chỉ Dimecoin không hợp lệ."
 
 #: electrum/gui/text.py:626 electrum/gui/stdio.py:188
-msgid "Invalid Bitcoin address"
+msgid "Invalid Dimecoin address"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:1942 electrum/gui/qt/main_window.py:1970
-msgid "Invalid Bitcoin address."
+msgid "Invalid Dimecoin address."
 msgstr ""
 
 #: electrum/gui/stdio.py:198
@@ -3528,7 +3528,7 @@ msgid "Make sure you install it with python3"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:578
-msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
+msgid "Make sure you own the seed phrase or the private keys, before you request Dimecoins to be sent to this wallet."
 msgstr ""
 
 #: electrum/gui/qt/confirm_tx_dialog.py:579
@@ -5325,7 +5325,7 @@ msgid "Standard wallet"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:802
-msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Dimecoin system."
 msgstr ""
 
 #: electrum/gui/qt/channel_details.py:190
@@ -5477,7 +5477,7 @@ msgid "Testnet coins are worthless."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:595
-msgid "Testnet is separate from the main Bitcoin network. It is used for testing."
+msgid "Testnet is separate from the main Dimecoin network. It is used for testing."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:1551
@@ -5857,7 +5857,7 @@ msgid "This may result in large QR codes"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:577
-msgid "This means you will not be able to spend Bitcoins with it."
+msgid "This means you will not be able to spend Dimecoins with it."
 msgstr ""
 
 #: electrum/simple_config.py:967
@@ -6121,7 +6121,7 @@ msgstr ""
 #: electrum/network.py:1160
 msgid "Transaction could not be broadcast due to dust outputs.\n"
 "Some of the outputs are too small in value, probably lower than 1000 satoshis.\n"
-"Check the units, make sure you haven't confused e.g. mBTC and BTC."
+"Check the units, make sure you haven't confused e.g. mDIME and DIME."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:2655 electrum/gui/qml/qewallet.py:606
@@ -10203,7 +10203,7 @@ msgstr ""
 
 #: ../gui/qml/components/wizard/WCImport.qml:32
 msgctxt "WCImport|"
-msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgid "Enter a list of Dimecoin addresses (this will create a watching-only wallet), or a list of private keys."
 msgstr ""
 
 #: ../gui/qml/components/wizard/WCImport.qml:74
@@ -10401,12 +10401,12 @@ msgstr ""
 
 #: ../gui/qml/components/wizard/WCWalletType.qml:54
 msgctxt "WCWalletType|"
-msgid "Import Bitcoin addresses or private keys"
+msgid "Import Dimecoin addresses or private keys"
 msgstr ""
 
 #: ../gui/qml/components/wizard/WCWelcome.qml:9
 msgctxt "WCWelcome|"
-msgid "Electrum Bitcoin Wallet"
+msgid "Electrum Dimecoin Wallet"
 msgstr ""
 
 #: ../gui/qml/components/wizard/WCWelcome.qml:32

@@ -38,7 +38,7 @@ msgid "&Addresses"
 msgstr "&Адреси"
 
 #: electrum/gui/qt/main_window.py:780
-msgid "&Bitcoin Paper"
+msgid "&Dimecoin Paper"
 msgstr "Біткойн Папір"
 
 #: electrum/gui/qt/main_window.py:775
@@ -212,7 +212,7 @@ msgid "({}% of amount)"
 msgstr ""
 
 #: electrum/gui/qt/send_tab.py:69
-msgid "- a Bitcoin address or BIP21 URI"
+msgid "- a Dimecoin address or BIP21 URI"
 msgstr ""
 
 #: electrum/gui/qt/send_tab.py:70
@@ -469,7 +469,7 @@ msgstr "Уже оновлено"
 
 #: electrum/gui/qt/confirm_tx_dialog.py:195
 msgid "Also, dust is not kept as change, but added to the fee."
-msgstr "Дуже мала вхідна сума Bitcoin (dust) не зберігається, але додається до комісійної винагороди."
+msgstr "Дуже мала вхідна сума Dimecoin (dust) не зберігається, але додається до комісійної винагороди."
 
 #: electrum/gui/qt/confirm_tx_dialog.py:196
 msgid "Also, when batching RBF transactions, BIP 125 imposes a lower bound on the fee."
@@ -685,19 +685,19 @@ msgid "BIP70 invoice saved as {}"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:628
-msgid "BTC Fiat price"
+msgid "DIME Fiat price"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:624
-msgid "BTC balance"
-msgstr "BTC баланс"
+msgid "DIME balance"
+msgstr "DIME баланс"
 
 #: electrum/gui/qt/history_list.py:645
-msgid "BTC incoming"
+msgid "DIME incoming"
 msgstr ""
 
 #: electrum/gui/qt/history_list.py:649
-msgid "BTC outgoing"
+msgid "DIME outgoing"
 msgstr ""
 
 #: electrum/gui/qt/wizard/wizard.py:47 electrum/gui/qt/wizard/wizard.py:175
@@ -764,17 +764,17 @@ msgid "BitBox02 Status"
 msgstr ""
 
 #: electrum/gui/qt/send_tab.py:613
-msgid "Bitcoin Address is None"
-msgstr "Bitcoin-адреса не визначена"
+msgid "Dimecoin Address is None"
+msgstr "Dimecoin-адреса не визначена"
 
 #: electrum/gui/qt/request_list.py:203 electrum/gui/qt/receive_tab.py:209
 #: electrum/gui/qt/receive_tab.py:285
-msgid "Bitcoin URI"
+msgid "Dimecoin URI"
 msgstr ""
 
 #: electrum/gui/qt/confirm_tx_dialog.py:689
-msgid "Bitcoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
-msgstr "Транзакції Bitcoin зазвичай не безкоштовні. Комісія за транзакцію оплачується тим, хто пересилає кошти."
+msgid "Dimecoin transactions are in general not free. A transaction fee is paid by the sender of the funds."
+msgstr "Транзакції Dimecoin зазвичай не безкоштовні. Комісія за транзакцію оплачується тим, хто пересилає кошти."
 
 #: electrum/gui/qt/locktimeedit.py:38
 msgid "Block height"
@@ -1783,7 +1783,7 @@ msgid "Device erased"
 msgstr ""
 
 #: electrum/plugins/ledger/ledger.py:882
-msgid "Device not in Bitcoin mode"
+msgid "Device not in Dimecoin mode"
 msgstr "Пристрій не в режимі Біткойн"
 
 #: electrum/plugins/digitalbitbox/__init__.py:5
@@ -1956,7 +1956,7 @@ msgid "Electrum"
 msgstr ""
 
 #: electrum/gui/qt/wizard/server_connect.py:39
-msgid "Electrum Bitcoin Wallet"
+msgid "Electrum Dimecoin Wallet"
 msgstr ""
 
 #: electrum/gui/qt/plugins_dialog.py:22
@@ -2019,7 +2019,7 @@ msgid "Electrum will now exit."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:799
-msgid "Electrum's focus is speed, with low resource usage and simplifying Bitcoin."
+msgid "Electrum's focus is speed, with low resource usage and simplifying Dimecoin."
 msgstr ""
 
 #: electrum/gui/qt/wallet_info_dialog.py:94
@@ -2155,8 +2155,8 @@ msgid "Enter a label to name your device:"
 msgstr "Введіть назву мітки для вашого пристрою:"
 
 #: electrum/gui/qt/wizard/wallet.py:950
-msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
-msgstr "Введіть список адрес Bitcoin (це створить гаманець тільки для спостереження) або список приватних ключів."
+msgid "Enter a list of Dimecoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr "Введіть список адрес Dimecoin (це створить гаманець тільки для спостереження) або список приватних ключів."
 
 #: electrum/gui/qt/send_tab.py:798
 msgid "Enter a list of outputs in the 'Pay to' field."
@@ -2553,8 +2553,8 @@ msgid "Firmware Version"
 msgstr "Версія прошивки"
 
 #: electrum/plugins/ledger/ledger.py:58
-msgid "Firmware version (or \"Bitcoin\" app) too old for Segwit support. Please update at"
-msgstr "Версія вбудованого програмного забезпечення (або програма Bitcoin) занадто стара для підтримки Segwit. Будь ласка, оновіть її на"
+msgid "Firmware version (or \"Dimecoin\" app) too old for Segwit support. Please update at"
+msgstr "Версія вбудованого програмного забезпечення (або програма Dimecoin) занадто стара для підтримки Segwit. Будь ласка, оновіть її на"
 
 #: electrum/plugins/trezor/qt.py:433
 msgid "Firmware version too old."
@@ -2937,12 +2937,12 @@ msgid "Import"
 msgstr "Імпортувати"
 
 #: electrum/gui/qt/wizard/wallet.py:948
-msgid "Import Bitcoin Addresses or Private Keys"
+msgid "Import Dimecoin Addresses or Private Keys"
 msgstr ""
 
 #: electrum/gui/qt/wizard/wallet.py:416
-msgid "Import Bitcoin addresses or private keys"
-msgstr "Імпортувати Bitcoin-адреси або закриті ключі"
+msgid "Import Dimecoin addresses or private keys"
+msgstr "Імпортувати Dimecoin-адреси або закриті ключі"
 
 #: electrum/gui/qt/main_window.py:721 electrum/gui/qt/main_window.py:2466
 msgid "Import addresses"
@@ -3103,16 +3103,16 @@ msgid "Invalid Amount"
 msgstr "Невірна сума"
 
 #: electrum/plugins/hw_wallet/plugin.py:110
-msgid "Invalid Bitcoin Address"
-msgstr "Невірна адреса Bitcoin"
+msgid "Invalid Dimecoin Address"
+msgstr "Невірна адреса Dimecoin"
 
 #: electrum/gui/text.py:626 electrum/gui/stdio.py:188
-msgid "Invalid Bitcoin address"
-msgstr "Некоректна адреса Bitcoin"
+msgid "Invalid Dimecoin address"
+msgstr "Некоректна адреса Dimecoin"
 
 #: electrum/gui/qt/main_window.py:1942 electrum/gui/qt/main_window.py:1970
-msgid "Invalid Bitcoin address."
-msgstr "Некоректна адреса Bitcoin."
+msgid "Invalid Dimecoin address."
+msgstr "Некоректна адреса Dimecoin."
 
 #: electrum/gui/stdio.py:198
 msgid "Invalid Fee"
@@ -3535,8 +3535,8 @@ msgid "Make sure you install it with python3"
 msgstr "Переконайтеся, що ви встановили його за допомогою python3"
 
 #: electrum/gui/qt/main_window.py:578
-msgid "Make sure you own the seed phrase or the private keys, before you request Bitcoins to be sent to this wallet."
-msgstr "Переконайтеся, що у вас є кодова фраза чи закритий ключ, перш ніж запитувати Bitcoin для відправлення в цей гаманець."
+msgid "Make sure you own the seed phrase or the private keys, before you request Dimecoins to be sent to this wallet."
+msgstr "Переконайтеся, що у вас є кодова фраза чи закритий ключ, перш ніж запитувати Dimecoin для відправлення в цей гаманець."
 
 #: electrum/gui/qt/confirm_tx_dialog.py:579
 msgid "Make sure you pay enough mining fees; you will not be able to bump the fee later."
@@ -5334,7 +5334,7 @@ msgid "Standard wallet"
 msgstr "Стандартний гаманець"
 
 #: electrum/gui/qt/main_window.py:802
-msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Bitcoin system."
+msgid "Startup times are instant because it operates in conjunction with high-performance servers that handle the most complicated parts of the Dimecoin system."
 msgstr ""
 
 #: electrum/gui/qt/channel_details.py:190
@@ -5486,8 +5486,8 @@ msgid "Testnet coins are worthless."
 msgstr "Монети Testnet нічого не варті."
 
 #: electrum/gui/qt/main_window.py:595
-msgid "Testnet is separate from the main Bitcoin network. It is used for testing."
-msgstr "Мережа Testnet є відокремленою від основної мережі Bitcoin. Використовується для тестування."
+msgid "Testnet is separate from the main Dimecoin network. It is used for testing."
+msgstr "Мережа Testnet є відокремленою від основної мережі Dimecoin. Використовується для тестування."
 
 #: electrum/gui/qt/main_window.py:1551
 msgid "Text"
@@ -5557,7 +5557,7 @@ msgstr "Сума буде відображатися червоним кольо
 
 #: electrum/gui/qt/receive_tab.py:188
 msgid "The bitcoin address never expires and will always be part of this electrum wallet."
-msgstr "Термін дії адреси Bitcoin ніколи не закінчиться, і завжди буде частиною цього Electrum-гаманця."
+msgstr "Термін дії адреси Dimecoin ніколи не закінчиться, і завжди буде частиною цього Electrum-гаманця."
 
 #: electrum/gui/qt/channels_list.py:429
 msgid "The channel peer can route Trampoline payments."
@@ -5867,8 +5867,8 @@ msgid "This may result in large QR codes"
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:577
-msgid "This means you will not be able to spend Bitcoins with it."
-msgstr "Це означає, що ви не зможете провести Bitcoins з цим."
+msgid "This means you will not be able to spend Dimecoins with it."
+msgstr "Це означає, що ви не зможете провести Dimecoins з цим."
 
 #: electrum/simple_config.py:967
 msgid "This might improve your privacy somewhat."
@@ -6131,7 +6131,7 @@ msgstr ""
 #: electrum/network.py:1160
 msgid "Transaction could not be broadcast due to dust outputs.\n"
 "Some of the outputs are too small in value, probably lower than 1000 satoshis.\n"
-"Check the units, make sure you haven't confused e.g. mBTC and BTC."
+"Check the units, make sure you haven't confused e.g. mDIME and DIME."
 msgstr ""
 
 #: electrum/gui/qt/main_window.py:2655 electrum/gui/qml/qewallet.py:606
@@ -10216,8 +10216,8 @@ msgstr ""
 
 #: ../gui/qml/components/wizard/WCImport.qml:32
 msgctxt "WCImport|"
-msgid "Enter a list of Bitcoin addresses (this will create a watching-only wallet), or a list of private keys."
-msgstr "Введіть список адрес Bitcoin (це створить гаманець тільки для спостереження) або список приватних ключів."
+msgid "Enter a list of Dimecoin addresses (this will create a watching-only wallet), or a list of private keys."
+msgstr "Введіть список адрес Dimecoin (це створить гаманець тільки для спостереження) або список приватних ключів."
 
 #: ../gui/qml/components/wizard/WCImport.qml:74
 msgctxt "WCImport|"
@@ -10414,12 +10414,12 @@ msgstr "Гаманець з мультипідписом"
 
 #: ../gui/qml/components/wizard/WCWalletType.qml:54
 msgctxt "WCWalletType|"
-msgid "Import Bitcoin addresses or private keys"
-msgstr "Імпортувати Bitcoin-адреси або закриті ключі"
+msgid "Import Dimecoin addresses or private keys"
+msgstr "Імпортувати Dimecoin-адреси або закриті ключі"
 
 #: ../gui/qml/components/wizard/WCWelcome.qml:9
 msgctxt "WCWelcome|"
-msgid "Electrum Bitcoin Wallet"
+msgid "Electrum Dimecoin Wallet"
 msgstr ""
 
 #: ../gui/qml/components/wizard/WCWelcome.qml:32
